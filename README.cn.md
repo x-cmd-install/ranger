@@ -42,7 +42,7 @@ x install ranger
 
 ## 流行度
 
-- **Star**: 17,402 · **Fork**: 941 · **开放 issue**: 2,247 · **贡献者**: 230
+- **Star**: 17,403 · **Fork**: 941 · **开放 issue**: 2,247 · **贡献者**: 230
 
 ## 累计统计
 
@@ -87,4 +87,4 @@ ranger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260911.yml` · 2026-09-11T06:17:50Z._
+_数据快照: `data/card/260911.yml` · 2026-09-11T18:36:04Z._
