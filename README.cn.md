@@ -42,7 +42,7 @@ x install ranger
 
 ## 流行度
 
-- **Star**: 17,403 · **Fork**: 941 · **开放 issue**: 2,247 · **贡献者**: 230
+- **Star**: 17,404 · **Fork**: 941 · **开放 issue**: 2,247 · **贡献者**: 230
 
 ## 累计统计
 
@@ -52,31 +52,12 @@ x install ranger
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 1 | 1 | 2 | 1 |
-| last60d | 2026-07-15 | 0 | 4 | 5 | 4 | 10 | 12 |
-| 90d | 2026-06-15 | 0 | 5 | 7 | 5 | 10 | 13 |
-| last180d | 2026-03-17 | 0 | 12 | 15 | 14 | 24 | 25 |
-| 360d | 2025-09-18 | 0 | 25 | 23 | 42 | 39 | 54 |
-| last720d | 2024-09-23 | 0 | 45 | 30 | 98 | 67 | 258 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/ranger) 上共有 **124** 个发行版报告此项目。**68** 个 ✅ 已是最新上游版本，**47** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.9.4` | ✅ latest |
-| Debian 14 | `1.9.4` | ✅ latest |
-| Debian 13 | `1.9.4` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.9.4` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.9.3` | ⚠️ outdated |
-| Arch | `1.9.4` | ✅ latest |
-| Homebrew | `1.9.4` | ✅ latest |
-| Fedora rawhide | `1.9.4` | ✅ latest |
-| Nix unstable | `1.9.4-unstable-2026-08-31` | ignored |
-| Void | `1.9.4` | ✅ latest |
-| Alpine edge | `1.9.4` | ✅ latest |
-| openSUSE Tumbleweed | `1.9.4` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 1 | 1 | 1 | 2 | 0 |
+| last60d | 2026-07-16 | 0 | 4 | 5 | 4 | 10 | 8 |
+| 90d | 2026-06-16 | 0 | 5 | 7 | 5 | 10 | 13 |
+| last180d | 2026-03-18 | 0 | 12 | 15 | 14 | 24 | 25 |
+| 360d | 2025-09-19 | 0 | 25 | 23 | 42 | 39 | 54 |
+| last720d | 2024-09-24 | 0 | 45 | 30 | 98 | 67 | 258 |
 
 ## 改进这些数据
 
@@ -87,4 +68,4 @@ ranger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:14:19Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:34:03Z._
