@@ -4,7 +4,7 @@
 
 A VIM-inspired filemanager for the console
 
-![ranger](https://repo.x-cmd.io/ranger.svg)
+[![x-cmd/install — ranger Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ranger.svg)](https://x-cmd.com/install/ranger)
 
 ## Install
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-20 | 0 | 4 | 5 | 4 | 9 | 8 |
-| 90d | 2026-06-20 | 0 | 5 | 6 | 5 | 10 | 13 |
-| last180d | 2026-03-22 | 0 | 12 | 15 | 14 | 23 | 25 |
-| 360d | 2025-09-23 | 0 | 25 | 23 | 42 | 39 | 54 |
-| last720d | 2024-09-28 | 0 | 45 | 30 | 98 | 67 | 258 |
+| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-07-22 | 0 | 1 | 4 | 3 | 9 | 8 |
+| 90d | 2026-06-22 | 0 | 5 | 6 | 5 | 10 | 13 |
+| last180d | 2026-03-24 | 0 | 12 | 14 | 13 | 23 | 25 |
+| 360d | 2025-09-25 | 0 | 25 | 23 | 42 | 39 | 54 |
+| last720d | 2024-09-30 | 0 | 45 | 30 | 98 | 67 | 258 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ranger lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:31:38Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:22:18Z._
