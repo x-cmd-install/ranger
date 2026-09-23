@@ -4,7 +4,7 @@
 
 A VIM-inspired filemanager for the console
 
-[![x-cmd/install — ranger Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ranger.svg?lang=zh)](https://x-cmd.com/install/ranger)
+[![x-cmd/install — ranger Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ranger.svg?lang=zh)](https://x-cmd.com/install/ranger)
 
 ## 安装
 
@@ -42,7 +42,7 @@ x install ranger
 
 ## 流行度
 
-- **Star**: 17,409 · **Fork**: 942 · **开放 issue**: 2,248 · **贡献者**: 230
+- **Star**: 17,410 · **Fork**: 942 · **开放 issue**: 2,248 · **贡献者**: 230
 
 ## 累计统计
 
@@ -52,12 +52,12 @@ x install ranger
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 3 | 0 |
-| last60d | 2026-07-24 | 0 | 1 | 4 | 3 | 10 | 5 |
-| 90d | 2026-06-24 | 0 | 5 | 6 | 5 | 11 | 13 |
-| last180d | 2026-03-26 | 0 | 12 | 14 | 12 | 23 | 25 |
-| 360d | 2025-09-27 | 0 | 25 | 23 | 42 | 40 | 54 |
-| last720d | 2024-10-02 | 0 | 45 | 30 | 97 | 68 | 258 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 3 | 0 |
+| last60d | 2026-07-25 | 0 | 1 | 4 | 3 | 10 | 5 |
+| 90d | 2026-06-25 | 0 | 5 | 6 | 5 | 11 | 13 |
+| last180d | 2026-03-27 | 0 | 12 | 14 | 12 | 22 | 25 |
+| 360d | 2025-09-28 | 0 | 25 | 23 | 42 | 40 | 54 |
+| last720d | 2024-10-03 | 0 | 45 | 30 | 97 | 68 | 258 |
 
 ## 改进这些数据
 
@@ -68,4 +68,4 @@ ranger 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:27:03Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:35:24Z._
