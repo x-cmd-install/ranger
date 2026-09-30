@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,415 · **Forks**: 941 · **Open issues**: 2,248 · **Contributors**: 230
+- **Stars**: 17,413 · **Forks**: 940 · **Open issues**: 2,248 · **Contributors**: 230
 
 ## Totals (cumulative)
 
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 0 | 0 | 0 | 2 | 0 |
-| last60d | 2026-07-31 | 0 | 1 | 3 | 2 | 10 | 5 |
-| 90d | 2026-07-01 | 0 | 5 | 6 | 4 | 11 | 12 |
-| last180d | 2026-04-02 | 0 | 11 | 13 | 12 | 22 | 23 |
-| 360d | 2025-10-04 | 0 | 25 | 23 | 39 | 39 | 52 |
-| last720d | 2024-10-09 | 0 | 45 | 30 | 95 | 68 | 258 |
+| 30d | 2026-08-31 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-08-01 | 0 | 1 | 3 | 2 | 10 | 5 |
+| 90d | 2026-07-02 | 0 | 5 | 6 | 4 | 11 | 12 |
+| last180d | 2026-04-03 | 0 | 11 | 13 | 11 | 22 | 23 |
+| 360d | 2025-10-05 | 0 | 24 | 23 | 39 | 38 | 52 |
+| last720d | 2024-10-10 | 0 | 45 | 30 | 95 | 68 | 258 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ranger lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T07:02:17Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:50:09Z._
