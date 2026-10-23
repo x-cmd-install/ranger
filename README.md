@@ -42,22 +42,41 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 17,437 · **Forks**: 940 · **Open issues**: 2,251 · **Contributors**: 230
+- **Stars**: 17,435 · **Forks**: 940 · **Open issues**: 2,251 · **Contributors**: 230
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 623 · **Open PRs**: 154 · **Closed issues**: 1505 · **Open issues**: 746 · **Commits**: 5319
+- **Releases**: 0 · **Merged PRs**: 623 · **Open PRs**: 152 · **Closed issues**: 1505 · **Open issues**: 746 · **Commits**: 5319
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 3 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 0 | 0 | 6 | 0 |
-| 90d | 2026-07-24 | 0 | 1 | 4 | 3 | 13 | 8 |
-| last180d | 2026-04-25 | 0 | 9 | 10 | 10 | 24 | 18 |
-| 360d | 2025-10-27 | 0 | 22 | 16 | 36 | 39 | 46 |
-| last720d | 2024-11-01 | 0 | 45 | 30 | 93 | 70 | 257 |
+| 30d | 2026-09-23 | 0 | 0 | 0 | 0 | 3 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 0 | 0 | 6 | 0 |
+| 90d | 2026-07-25 | 0 | 1 | 4 | 3 | 13 | 8 |
+| last180d | 2026-04-26 | 0 | 9 | 10 | 10 | 24 | 18 |
+| 360d | 2025-10-28 | 0 | 22 | 14 | 35 | 39 | 46 |
+| last720d | 2024-11-02 | 0 | 45 | 28 | 93 | 70 | 257 |
+
+## Distribution status
+
+Reported by **122** distros on [repology.org](https://repology.org/project/ranger). **68** are ✅ on the latest upstream release, **45** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.9.4` | ✅ latest |
+| Debian 14 | `1.9.4` | ✅ latest |
+| Debian 13 | `1.9.4` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.9.4` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.9.3` | ⚠️ outdated |
+| Arch | `1.9.4` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
+| Fedora rawhide | `1.9.4` | ✅ latest |
+| Nix unstable | `1.9.4-unstable-2026-09-09` | ignored |
+| Void | `1.9.4` | ✅ latest |
+| Alpine edge | `1.9.4` | ✅ latest |
+| openSUSE Tumbleweed | `1.9.4` | ✅ latest |
 
 ## Improve this data
 
@@ -68,4 +87,4 @@ Install metadata for ranger lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:56:43Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:56:00Z._
