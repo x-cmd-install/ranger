@@ -1,43 +1,132 @@
-- repo: pypi
-  srcname: ranger-fm
-  binname: ranger-fm
-  visiblename: ranger-fm
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ranger
+  binname: ranger
+  visiblename: ranger
   version: 1.9.4
-  origversion: null
+  origversion: 1.9.4-5
   status: newest
-  summary: Vim-like file manager
-  maintainers:
-    - hut@hut.pm
-- repo: raspbian_oldstable
+  summary: Simple, vim-like file manager
+  licenses:
+    - GPL-3.0-only
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ranger
+  binname: ranger
+  visiblename: ranger
+  version: 1.9.4
+  origversion: 1.9.4-5
+  status: newest
+  summary: Simple, vim-like file manager
+  licenses:
+    - GPL-3.0-only
+- repo: mx_21
   subrepo: main
   srcname: ranger
   binnames:
     - ranger
   visiblename: ranger
   version: 1.9.3
-  origversion: 1.9.3-5
+  origversion: 1.9.3-5~mx21+1
   status: outdated
   maintainers:
-    - s5unty@gmail.com
+    - swamprabbit@mxlinux.org
     - lumin@debian.org
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
+- repo: alpine_3_17
+  subrepo: community
   srcname: ranger
-  binnames:
-    - ranger
+  binname: ranger
   visiblename: ranger
-  version: 1.9.4
-  origversion: 1.9.4-2.1
-  status: newest
+  version: 1.9.3
+  origversion: 1.9.3-r3
+  status: outdated
+  summary: VIM-inspired filemanager for the console
   maintainers:
-    - s5unty@gmail.com
-    - lumin@debian.org
-  categories:
-    - utils
-- repo: raspbian_stable
-  subrepo: main
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_17
+  subrepo: community
+  srcname: ranger
+  binname: ranger-doc
+  visiblename: ranger-doc
+  version: 1.9.3
+  origversion: 1.9.3-r3
+  status: outdated
+  summary: VIM-inspired filemanager for the console (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ranger
+  binname: ranger
+  visiblename: ranger
+  version: 1.9.3
+  origversion: 1.9.3-r6
+  status: outdated
+  summary: VIM-inspired filemanager for the console
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ranger
+  binname: ranger-doc
+  visiblename: ranger-doc
+  version: 1.9.3
+  origversion: 1.9.3-r6
+  status: outdated
+  summary: VIM-inspired filemanager for the console (documentation)
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_18
+  subrepo: community
+  srcname: ranger
+  binname: ranger-pyc
+  visiblename: ranger-pyc
+  version: 1.9.3
+  origversion: 1.9.3-r6
+  status: outdated
+  summary: Precompiled Python bytecode for ranger
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ranger
+  binname: ranger
+  visiblename: ranger
+  version: 1.9.3
+  origversion: 1.9.3-r7
+  status: outdated
+  summary: VIM-inspired filemanager for the console
+  maintainers:
+    - john@jo.hnanthony.com
+  licenses:
+    - GPL-3.0-only
+- repo: alpine_3_19
+  subrepo: community
+  srcname: ranger
+  binname: ranger-doc
+  visiblename: ranger-doc
+  version: 1.9.3
+  origversion: 1.9.3-r7
+  status: outdated
+  summary: VIM-inspired filemanager for the console (documentation)
+  maintainers:
+    - john@jo.hnanthony.com
+  licenses:
+    - GPL-3.0-only
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: ranger
   binnames:
     - ranger
@@ -50,97 +139,6 @@
     - lumin@debian.org
   categories:
     - utils
-- repo: alpine_3_17
-  subrepo: community
-  srcname: ranger
-  binname: ranger
-  visiblename: ranger
-  version: 1.9.3
-  origversion: 1.9.3-r3
-  status: outdated
-  summary: VIM-inspired filemanager for the console
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_17
-  subrepo: community
-  srcname: ranger
-  binname: ranger-doc
-  visiblename: ranger-doc
-  version: 1.9.3
-  origversion: 1.9.3-r3
-  status: outdated
-  summary: VIM-inspired filemanager for the console (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ranger
-  binname: ranger
-  visiblename: ranger
-  version: 1.9.3
-  origversion: 1.9.3-r6
-  status: outdated
-  summary: VIM-inspired filemanager for the console
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ranger
-  binname: ranger-doc
-  visiblename: ranger-doc
-  version: 1.9.3
-  origversion: 1.9.3-r6
-  status: outdated
-  summary: VIM-inspired filemanager for the console (documentation)
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_18
-  subrepo: community
-  srcname: ranger
-  binname: ranger-pyc
-  visiblename: ranger-pyc
-  version: 1.9.3
-  origversion: 1.9.3-r6
-  status: outdated
-  summary: Precompiled Python bytecode for ranger
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: ranger
-  binname: ranger
-  visiblename: ranger
-  version: 1.9.3
-  origversion: 1.9.3-r7
-  status: outdated
-  summary: VIM-inspired filemanager for the console
-  maintainers:
-    - john@jo.hnanthony.com
-  licenses:
-    - GPL-3.0-only
-- repo: alpine_3_19
-  subrepo: community
-  srcname: ranger
-  binname: ranger-doc
-  visiblename: ranger-doc
-  version: 1.9.3
-  origversion: 1.9.3-r7
-  status: outdated
-  summary: VIM-inspired filemanager for the console (documentation)
-  maintainers:
-    - john@jo.hnanthony.com
-  licenses:
-    - GPL-3.0-only
 - repo: alpine_3_19
   subrepo: community
   srcname: ranger
@@ -271,6 +269,18 @@
     - john@jo.hnanthony.com
   licenses:
     - GPL-3.0-only
+- repo: aosc
+  srcname: app-utils/ranger
+  binname: ranger
+  visiblename: ranger
+  version: 1.9.3
+  origversion: 1.9.3-2
+  status: outdated
+  summary: A simple, vim-like file manager
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
 - repo: alpine_3_23
   subrepo: community
   srcname: ranger
@@ -284,12 +294,6 @@
     - john@jo.hnanthony.com
   licenses:
     - GPL-3.0-only
-- repo: pld
-  srcname: ranger
-  visiblename: ranger
-  version: 1.9.3
-  origversion: 1.9.3-6
-  status: outdated
 - repo: alpine_3_23
   subrepo: community
   srcname: ranger
@@ -327,18 +331,6 @@
   summary: VIM-inspired filemanager for the console
   maintainers:
     - john@jo.hnanthony.com
-  licenses:
-    - GPL-3.0-only
-- repo: nix_stable_25_11
-  srcname: ranger
-  visiblename: ranger
-  version: 1.9.3-unstable-2025-11-14
-  origversion: null
-  status: outdated
-  summary: File manager with minimalistic curses interface
-  maintainers:
-    - nixpkgs@toonn.io
-    - lucas59356@gmail.com
   licenses:
     - GPL-3.0-only
 - repo: alpine_3_24
@@ -438,18 +430,15 @@
     - GPLv3
   categories:
     - File tools
-- repo: aosc
-  srcname: app-utils/ranger
-  binname: ranger
+- repo: pclinuxos
+  srcname: ranger
   visiblename: ranger
   version: 1.9.3
-  origversion: 1.9.3-2
+  origversion: 1.9.3-2pclos2022
   status: outdated
-  summary: A simple, vim-like file manager
-  maintainers:
-    - fallback-mnt-aosc@repology
+  summary: A flexible console file manager
   categories:
-    - utils
+    - File tools
 - repo: arch
   subrepo: extra
   srcname: ranger
@@ -645,6 +634,15 @@
     - GPL-3.0-only
   categories:
     - Unspecified
+- repo: gobolinux
+  srcname: Ranger
+  visiblename: Ranger
+  version: 1.8.1
+  origversion: null
+  status: outdated
+  summary: ranger is a console file manager with VI key bindings.
+  licenses:
+    - GNU GENERAL PUBLIC LICENS
 - repo: exherbo
   subrepo: somasis
   srcname: app-misc/ranger
@@ -700,20 +698,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: ranger
-  binnames:
-    - ranger
-  visiblename: ranger
-  version: 1.9.4
-  origversion: 1.9.4-1.fc41
-  status: newest
-  summary: A vim-like file manager
-  licenses:
-    - GPL-3.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: ranger
   binnames:
@@ -725,6 +709,20 @@
   summary: A vim-like file manager
   licenses:
     - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: ranger
+  binnames:
+    - ranger
+  visiblename: ranger
+  version: 1.9.4
+  origversion: 1.9.4-1.fc41
+  status: newest
+  summary: A vim-like file manager
+  licenses:
+    - GPL-3.0
   categories:
     - Unspecified
 - repo: fedora_42
@@ -821,15 +819,6 @@
   origversion: null
   status: newest
   summary: Console file manager
-- repo: gobolinux
-  srcname: Ranger
-  visiblename: Ranger
-  version: 1.8.1
-  origversion: null
-  status: outdated
-  summary: ranger is a console file manager with VI key bindings.
-  licenses:
-    - GNU GENERAL PUBLIC LICENS
 - repo: haikuports_master
   srcname: app-misc/ranger
   visiblename: app-misc/ranger
@@ -1002,42 +991,6 @@
   summary: Simple, vim-like file manager
   licenses:
     - GPL-3.0-only
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ranger
-  binname: ranger
-  visiblename: ranger
-  version: 1.9.4
-  origversion: 1.9.4-5
-  status: newest
-  summary: Simple, vim-like file manager
-  licenses:
-    - GPL-3.0-only
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ranger
-  binname: ranger
-  visiblename: ranger
-  version: 1.9.4
-  origversion: 1.9.4-5
-  status: newest
-  summary: Simple, vim-like file manager
-  licenses:
-    - GPL-3.0-only
-- repo: mx_21
-  subrepo: main
-  srcname: ranger
-  binnames:
-    - ranger
-  visiblename: ranger
-  version: 1.9.3
-  origversion: 1.9.3-5~mx21+1
-  status: outdated
-  maintainers:
-    - swamprabbit@mxlinux.org
-    - lumin@debian.org
-  categories:
-    - utils
 - repo: nix_stable_24_05
   srcname: ranger
   visiblename: ranger
@@ -1068,6 +1021,18 @@
   version: 1.9.4
   origversion: null
   status: newest
+  summary: File manager with minimalistic curses interface
+  maintainers:
+    - nixpkgs@toonn.io
+    - lucas59356@gmail.com
+  licenses:
+    - GPL-3.0-only
+- repo: nix_stable_25_11
+  srcname: ranger
+  visiblename: ranger
+  version: 1.9.3-unstable-2025-11-14
+  origversion: null
+  status: outdated
   summary: File manager with minimalistic curses interface
   maintainers:
     - nixpkgs@toonn.io
@@ -1221,20 +1186,6 @@
   categories:
     - utils
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: ranger
-  binnames:
-    - ranger
-  visiblename: ranger
-  version: 1.9.4
-  origversion: 1.9.4-2
-  status: newest
-  maintainers:
-    - s5unty@gmail.com
-    - lumin@debian.org
-  categories:
-    - utils
-- repo: parrot
   subrepo: parrot/main
   srcname: ranger
   binnames:
@@ -1248,15 +1199,12 @@
     - lumin@debian.org
   categories:
     - utils
-- repo: pclinuxos
+- repo: pld
   srcname: ranger
   visiblename: ranger
   version: 1.9.3
-  origversion: 1.9.3-2pclos2022
+  origversion: 1.9.3-6
   status: outdated
-  summary: A flexible console file manager
-  categories:
-    - File tools
 - repo: pureos_amber
   subrepo: amber/main
   srcname: ranger
@@ -1293,6 +1241,58 @@
   visiblename: ranger
   version: 1.9.4
   origversion: 1.9.4-2
+  status: newest
+  maintainers:
+    - s5unty@gmail.com
+    - lumin@debian.org
+  categories:
+    - utils
+- repo: pypi
+  srcname: ranger-fm
+  binname: ranger-fm
+  visiblename: ranger-fm
+  version: 1.9.4
+  origversion: null
+  status: newest
+  summary: Vim-like file manager
+  maintainers:
+    - hut@hut.pm
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: ranger
+  binnames:
+    - ranger
+  visiblename: ranger
+  version: 1.9.3
+  origversion: 1.9.3-5
+  status: outdated
+  maintainers:
+    - s5unty@gmail.com
+    - lumin@debian.org
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ranger
+  binnames:
+    - ranger
+  visiblename: ranger
+  version: 1.9.4
+  origversion: 1.9.4-2
+  status: newest
+  maintainers:
+    - s5unty@gmail.com
+    - lumin@debian.org
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ranger
+  binnames:
+    - ranger
+  visiblename: ranger
+  version: 1.9.4
+  origversion: 1.9.4-2.1
   status: newest
   maintainers:
     - s5unty@gmail.com
