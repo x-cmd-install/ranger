@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 3 | 0 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 4 | 0 |
-| 90d | 2026-08-08 | 0 | 1 | 2 | 2 | 9 | 2 |
-| last180d | 2026-05-10 | 0 | 8 | 8 | 7 | 24 | 15 |
-| 360d | 2025-11-11 | 0 | 17 | 14 | 29 | 36 | 30 |
-| last720d | 2024-11-16 | 0 | 45 | 28 | 92 | 69 | 257 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 3 | 0 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 4 | 0 |
+| 90d | 2026-08-09 | 0 | 1 | 2 | 2 | 8 | 2 |
+| last180d | 2026-05-11 | 0 | 7 | 7 | 7 | 24 | 15 |
+| 360d | 2025-11-12 | 0 | 17 | 14 | 29 | 36 | 30 |
+| last720d | 2024-11-17 | 0 | 45 | 28 | 92 | 69 | 257 |
 
 ## Distribution status
 
-Reported by **123** distros on [repology.org](https://repology.org/project/ranger). **67** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
+Reported by **124** distros on [repology.org](https://repology.org/project/ranger). **70** are ✅ on the latest upstream release, **45** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for ranger lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:53:46Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:13:43Z._
