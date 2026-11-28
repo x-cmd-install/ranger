@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:30:56Z
+  collectedAt: 2026-11-28T08:54:24Z
 timeline:
   created: 2009-06-04
   lastCommit: 2026-11-26
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 17468
+  star: 17467
   watcher: 146
   fork: 941
   release: 0
@@ -29,7 +29,7 @@ language:
 totalBytes: 781081
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
@@ -37,7 +37,7 @@ recent:
     openIssue: 0
     commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 0
@@ -45,7 +45,7 @@ recent:
     openIssue: 3
     commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 0
@@ -53,7 +53,7 @@ recent:
     openIssue: 5
     commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 7
     openPR: 6
@@ -61,7 +61,7 @@ recent:
     openIssue: 17
     commit: 15
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 18
     openPR: 13
@@ -69,11 +69,11 @@ recent:
     openIssue: 36
     commit: 31
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 45
     openPR: 27
-    closedIssue: 91
+    closedIssue: 90
     openIssue: 66
     commit: 259
 total:
@@ -85,7 +85,7 @@ total:
   commit: 5322
 ---
 path: /home/runner/.x-repo/github.com/ranger/ranger
-collectedAt: 2026-11-27T10:30:59Z
+collectedAt: 2026-11-28T08:54:26Z
 loc:
   Python:
     code: 17817
